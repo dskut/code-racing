@@ -1,6 +1,6 @@
 import org.scalastyle.sbt.{ScalastylePlugin, PluginKeys}
 
-name := "scala-cgdk"
+name := "code-racing"
 
 version := "1.0-SNAPSHOT"
 

@@ -42,5 +42,5 @@ echo Manifest-Version: 1.0 >MANIFEST.MF
 echo Main-Class: Runner >>MANIFEST.MF
 echo Class-Path: scala-library.jar scala-reflect.jar >>MANIFEST.MF
 
-jar -cfm "./scala-cgdk.jar" MANIFEST.MF -C "./classes" . >>compilation.log 2>&1
+jar -cfm "./code-racing.jar" MANIFEST.MF -C "./classes" . >>compilation.log 2>&1
 cp -n $SCALA_HOME/lib/scala-library.jar $SCALA_HOME/lib/scala-reflect.jar .

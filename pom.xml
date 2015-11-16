@@ -4,18 +4,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.codegame.coderacing2015.devkit</groupId>
-    <artifactId>scala-cgdk</artifactId>
+    <artifactId>code-racing</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
 
-    <name>scala-cgdk</name>
+    <name>code-racing</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <build>
-        <finalName>scala-cgdk</finalName>
+        <finalName>code-racing</finalName>
 
         <plugins>
             <plugin>
