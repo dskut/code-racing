@@ -36,7 +36,7 @@ class MyStrategy extends Strategy {
             nextWaypointY -= cornerTileOffset
         case _ =>
             move.enginePower = 1
-            if (distToWaypoint > 300) {
+            if (distToWaypoint > game.trackTileSize) {
                 move.useNitro = true
             }
             
